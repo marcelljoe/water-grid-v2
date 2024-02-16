@@ -1,0 +1,9 @@
+# compiled output
+.next
+node_modules
+npm-debug.log
+
+# config
+.env.example
+.git
+.gitignore

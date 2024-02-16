@@ -1,0 +1,14 @@
+.title {
+  text-decoration: underline !important;
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.25rem !important;
+  font-size: 1.5rem !important;
+  font-family: 'Tahoma';
+}
+
+.text {
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-family: 'Tahoma';
+}

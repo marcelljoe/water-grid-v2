@@ -1,0 +1,26 @@
+version: '3.0'
+
+services:
+    app:
+        build: .
+        container_name: hdi-eoffice-web-container
+        ports:
+            - 9090:9090
+        env_file: .env.production
+        environment:
+            TZ: Asia/Jakarta
+        restart: always
+        volumes:
+            - hdi-eoffice-web-volume:/vol/app
+            - /vol/harmonidigital/public:/vol/public
+        networks:
+            - e-office-networks
+
+volumes:
+    hdi-eoffice-web-volume:
+        name: hdi-eoffice-web-volume
+
+networks:
+    e-office-networks:
+        driver: bridge
+        external: true

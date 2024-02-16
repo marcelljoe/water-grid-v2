@@ -1,0 +1,26 @@
+.title {
+  text-decoration: underline !important;
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.25rem !important;
+  font-size: 1rem !important;
+  font-family: 'Tahoma';
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: 'Tahoma';
+}
+
+.text_dinas p {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: 'Tahoma';
+}
+
+.number {
+  font-weight: 300;
+  font-size: 0.7rem;
+  font-family: 'Tahoma';
+}

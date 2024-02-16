@@ -1,0 +1,647 @@
+
+    @media (max-width: 1181px) {
+        .css-13lhhdo {
+            /* margin-right: 0px !important; */
+        }
+
+        .paper-drawer .MuiDrawer-paperAnchorRight.MuiPaper-root.MuiPaper-elevation {
+            overflow: auto !important;
+            height: auto;
+            width: 66% !important;
+            background-color: #e9ebf0;
+            border-left: 0;
+            position: absolute;
+            box-shadow: none !important;
+            border-radius: 15px;
+            padding: 0px 0 30px;
+            background-size: auto;
+            background-repeat: repeat;
+        }
+        .MuiDrawer-root.MuiDrawer-docked.paper-drawer {
+            margin-left: 20px;
+            align-self: baseline;
+        }
+        .responsive-template {
+            margin-top: 30px !important;
+            display: flex !important;
+            position: relative !important;
+        }
+        .paper-drawer{
+            /* width: 100px !important; */
+        }
+        .hidden-month {
+          display: none;
+          font-size: 20px;
+        }
+      
+      }
+
+  
+  @media (max-width: 1025px) {
+    
+    .paper-drawer .MuiDrawer-paperAnchorRight.MuiPaper-root.MuiPaper-elevation {
+        overflow: auto !important;
+        height: auto;
+        width: 62% !important;
+        background-color: #e9ebf0;
+        border-left: 0;
+        position: absolute;
+        box-shadow: none !important;
+        border-radius: 15px;
+        padding: 0px 0 30px;
+        background-size: auto;
+        background-repeat: repeat;
+    }
+    .MuiDrawer-root.MuiDrawer-docked.paper-drawer {
+        margin-left: 20px;
+        align-self: baseline;
+        /* width: 100% !important; */
+    }
+    .responsive-template {
+        margin-top: 30px !important;
+        display: flex !important;
+        position: relative !important;
+    }
+    .paper-drawer{
+        /* width: 100px !important; */
+    }
+    .hidden-month {
+      display: none;
+      font-size: 20px;
+    }
+  
+  }
+
+  @media (max-width: 820px) {
+    .MuiButton-root.btn-primary-print {
+      /* position: absolute; */
+      background-color: #0b54ce;
+      padding: 0 30px;
+      min-width: 120px;
+      border-radius: 30px !important;
+      margin-top:20px;
+      /* margin-top: 86vh; */
+      /* margin-right: 100vh; */
+    }
+    
+    .MuiButton-root.btn-primary-print.Mui-disabled {
+      background-color: #a9b2bf;
+      color: white;
+    }
+    .card-title{
+      margin-left: -12px;
+  }
+  .name-color{
+      color: #555 
+  }
+.sidebar-left {
+    background: #ffffff !important;
+    /* width: 1000px !important; */
+  }
+  .table-padding{
+    padding: 15px !important;
+}
+  .sidebar-left .MuiDrawer-paper {
+    border-right: 0;
+    /* background: transparent !important; */
+  }
+    .mobile-view-logout{
+      display: flow-root !important;
+      margin-top: 10px;
+      margin-left: -120px;
+  }
+  
+      .mobile-logout{
+          display: none !important;
+      }
+    .css-13lhhdo {
+        margin-right: 0px !important;
+    }
+    .paper-drawer .MuiDrawer-paperAnchorRight.MuiPaper-root.MuiPaper-elevation {
+        overflow: auto !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-left: -20px !important;
+        background-color: #e9ebf0;
+        border-left: 0;
+        position: relative;
+        box-shadow: none !important;
+        border-radius: 15px;
+        padding: 0px 0 30px;
+        background-size: auto;
+        background-repeat: repeat;
+    }
+    .MuiDrawer-root.MuiDrawer-docked.paper-drawer {
+        margin-left: 20px;
+        align-self: baseline;
+        width: 100% !important;
+    }
+    .responsive-template {
+        margin-top: 30px !important;
+        display: block !important;
+        position: relative !important;
+    }
+    .paper-drawer{
+    }
+    .hidden-month {
+      display: none;
+      font-size: 20px;
+    }
+  
+    .custom-mail {
+      /* padding: 20px 20px 0px 0px !important; */
+      width: 100% !important;
+  }
+    .font-header {
+      font-size: 12px !important;
+    }
+    .icon-menu {
+      /* margin-left: -0.1px !important; */
+    }
+    .icon-image {
+      font-size: 12px !important;
+      margin-left: -7px !important;
+    }
+    .icon-user {
+      margin-left: 13px !important;
+    }
+    .menu-user {
+      font-size: 11px !important;
+      margin-right: -3px !important;
+    }
+    .menu-logout {
+      font-size: 11px !important;
+      margin-right: -5px !important;
+      color: #555   
+    }
+  
+    .custom-button-right {
+      width: 100% !important;
+    }
+    .custom-button-left {
+      width: 100% !important;
+      /* width: 100% !important; */
+    }
+    .text-dashboard-3 {
+      position: absolute;
+      display: flex;
+      text-align: center;
+      margin-top: 105px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 135px !important;
+      margin-top: 100px !important;
+      font-weight: 500;
+      font-size: 35px !important;
+    }
+  
+    .button-surat {
+      float: left !important;
+      margin-left: 15px !important;
+      margin-right: -0px !important;
+    }
+  
+    .button-filter {
+      float: left !important;
+      margin-left: 10px !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .button-filter-single {
+      float: left !important;
+      margin-left: 10px !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .button-menu {
+      margin-top: 15px !important;
+      margin-bottom: -2px !important;
+      /* margin-left: 15px !important; */
+      /* float: left !important; */
+    }
+    .nav-text {
+      font-size: 0px !important;
+    }
+    .margin-pae {
+      margin: 1000px;
+    }
+    .custom-table {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100px !important;
+      overflow-x: auto !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      margin-top: 50px !important;
+      padding: 10px !important;
+      margin: 10px !important;
+      /* overflow-x: auto !important;
+      overflow-y: auto !important;
+      align-items: flex-start !important ;
+      justify-content: flex-start !important;
+      justify-items: end !important;
+      width: 100% !important; */
+    }
+   
+    .row {
+      padding: 10px 10px 0px 10px;
+      /* font-size: 25px; */
+      /* padding-top: 200px; */
+      /* margin-left: -50px !important; */
+      /* margin-right: -20px !important; */
+      /* justify-content: center !important;
+      justify-items: center !important;
+      align-items: center !important;
+      align-content: center !important; */
+      /* float: center !important; */
+      /* padding: 0px !important; */
+      display: block !important;
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+    }
+  
+    
+  
+    .text-dashboard-2 {
+      /* margin-right: 20px; */
+      /* margin-right: 115px !important; */
+      font-size: 20px !important;
+      /* margin-bottom: 10px !important; */
+      margin-top: 410px !important;
+      font-weight: 500 !important;
+      text-align: center !important;
+      margin-left: 100px !important;
+      /* margin-bottom: -92px !important; */
+      margin-top: 0px !important;
+    }
+  
+    .text-dashboard-2-sub {
+      /* margin-right: 20px; */
+      /* margin-right: 115px !important; */
+      font-size: 20px !important;
+      /* margin-bottom: 10px !important; */
+      font-weight: 500 !important;
+      text-align: center !important;
+    }
+  
+    .text-dashboard-1 {
+      /* margin-right: 115px !important; */
+      font-size: 20px !important;
+      margin-bottom: 10px !important;
+      font-weight: 500 !important;
+    }
+    .margin-dashboard {
+      width: 300px !important;
+      width: 100% !important;
+      /* margin-top: 20px !important; */
+      /* padding: 0px !important; */
+      /* margin-left: -2% !important; */
+      /* margin-right: 95% !important; */
+    }
+    .margin-dashboard-pie {
+      /* max-width: 400px !important; */
+      /* width: 100% !important; */
+      /* max-height: 300px !important; */
+      /* height: 10% !important; */
+      align-items: center !important;
+      align-content: center !important;
+      justify-content: center !important;
+      align-self: center !important;
+      margin-top: -7px !important;
+      justify-items: center !important;
+      /* margin-left: 10% !important; */
+      /* float: right !important; */
+      /* padding: 20px !important; */
+      /* margin-left: 50px !important; */
+    }
+    .css-dnw7rw-MuiToolbar-root {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      min-height: 56px;
+      margin: 0 30px;
+    }
+  
+    .custom-card {
+      max-width: 900px !important;
+      width: 190% !important;
+    }
+    .surat-masuk {
+      margin-top: 30px !important;
+      margin-left: 15px !important;
+      float: left !important;
+    }
+  
+    .user-setting {
+      margin-top: 15px !important;
+      margin-left: 15px !important;
+      float: left !important;
+    }
+    .add-surat {
+      margin-bottom: 10px !important;
+    }
+    .table-masuk {
+      display: block !important;
+    }
+  
+    .css-b1ubaf {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      padding: 20px 20px 50px !important;
+    }
+  
+  
+    .card-search-input {
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      /* max-width: calc(100% - 24px) !important; */
+      /* overflow: auto !important; */
+    margin-top: 15px !important;
+    width: 26vh !important;
+    /* max-width: 300px !important; */
+    margin-bottom: 15px !important;
+    margin-left: 0px !important;
+    max-height: 100px !important;
+    margin-right: -13px !important;
+    /* height: 30px; */
+    }
+    .headIncoming {
+      font-size: 25px !important;
+      text-align: center !important;
+      margin-left: 120px !important;
+      margin-top: -70px !important;
+      /* margin-bottom: 0px !important; */
+    }
+    .headIncomingSub {
+      font-size: 25px !important;
+      text-align: center !important;
+      margin-left: 120px !important;
+      margin-top: -52px !important;
+      /* margin-bottom: 0px !important; */
+    }
+  
+    .headIncomingMenu {
+      /* font-size: 30px !important; */
+      margin-left: 120px !important;
+      margin-top: -70px !important;
+    }
+  
+    .list-table {
+      margin-top: 15px !important;
+    }
+  
+    .head-moment {
+      display: none !important;
+      width: 10px !important;
+    }
+  
+    .logo-button {
+      /* margin-left: -10px !important; */
+      margin-top: -15 !important;
+    }
+    .align-month {
+      color: rgb(91, 91, 91);
+      font-size: 25px !important;
+      /* margin-left: -10px !important; */
+    }
+  
+  }
+
+
+  /* MOBILE */
+  @media (max-width: 600px) {
+    .width-template-button{
+      width: 10% !important;
+      /* height: 10px !important; */
+      min-width: 90px !important;
+      /* margin-bottom: -110px !important; */
+    }
+    .button-template{
+      margin-top: 40px;
+      position: absolute;
+      margin-bottom: 100px;
+      /* flex-direction: row !important; */
+    }
+    .responsive-template{
+      margin-top: 100px !important;
+      display: block !important;
+      position:  relative !important;
+  }
+    .custom-form{
+      margin-top: 0px;
+      direction: inherit;
+      display: block;
+    }
+.content{
+  margin-top: 0px;
+}
+    .MuiCard-root,
+    .content-p .MuiPaper-root.MuiPaper-elevation {
+      box-shadow: none !important;
+      width: 100% !important;
+    }
+    .hidden-month {
+        display: none;
+        font-size: 20px;
+      }
+      .btn-secondary{
+        margin-right: 7px !important;
+          background-color: transparent !important;
+          margin-bottom: 50px !important;
+          margin-top: 10px !important;
+          font-size: 13px !important;
+        font-weight: 600 !important;
+        }
+
+        .btn-secondary-single{
+            margin-bottom: -15px !important;
+          }
+
+          .MuiButton-root.btn-primary-double {
+            background-color: #0b54ce;
+            padding: 0 30px;
+            min-width: 120px;
+            border-radius: 30px;
+          }
+          
+          .MuiButton-root.btn-primary-double.Mui-disabled {
+            background-color: #a9b2bf;
+            color: white;
+          }
+
+          .MuiButton-root.btn-primary-setting {
+            background-color: #0b54ce;
+            padding: 0 30px;
+            min-width: 120px;
+            border-radius: 30px;
+          }
+          
+          .MuiButton-root.btn-primary-setting.Mui-disabled {
+            background-color: #a9b2bf;
+            color: white;
+          }
+        
+.btn-primary-1{
+    position: absolute !important;
+    margin-right: -100px !important;
+}
+
+.align-month-2{
+    margin-top: 35px !important;
+    color: rgb(91, 91, 91) !important;
+    font-size: 23px !important;
+}
+
+.btn-primary-setting{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    margin-top: 10px !important;
+    margin-left: -100px !important;
+    margin-bottom: 5px !important;
+}
+          
+.btn-primary-double{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    position: absolute !important;
+    margin-top: 57px !important;
+    /* margin-bottom: 00px !important; */
+    margin-left: -165px !important;
+    margin-right: 40px !important;
+}
+
+.btn-primary-template{
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  position: absolute !important;
+  margin-top: 57px !important;
+  margin-bottom: 100px !important;
+  margin-left: -38px !important;
+  margin-right: 40px !important;
+}
+
+      .btn-primary{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        position: absolute !important;
+        margin-top: 57px !important;
+        margin-bottom: 100px !important;
+        margin-left: -38px !important;
+        margin-right: 40px !important;
+      }
+    .btn-secondary-2{
+      margin-right: -1px !important;
+        background-color: transparent !important;
+        margin-bottom: 50px !important;
+        margin-top: 10px !important;
+      }
+
+    .testing{
+       margin-right: 0px !important;
+    }
+      .custom-pie {
+        display: flex !important;
+        justify-content: center !important;
+        align-content: center !important;
+        height: 120% !important;
+      }
+      .card-dashboard-pie {
+        background-color: #ffffff !important;
+        background: #ffffff !important;
+        border-radius: 10px !important;
+        box-shadow: none !important;
+      }
+      .row-menu {
+        background-color: transparent;
+        background: transparent;
+        transition: all 0.3s ease-in;
+        display: block !important;
+        margin-top: 7px !important;
+      }
+      .head-moment {
+        font-size: 11px !important;
+        width: 100% !important;
+        margin-left: 440px !important;
+      }
+    
+     
+      .btn-secondary-menu{
+          background-color: transparent !important;
+          margin-bottom: 30px !important;
+          margin-top: 10px !important;
+        }
+    
+  
+  }
+
+
+/* LANDSCAPE IPAD PRO & IPAD AIR */
+  @media screen and (min-width: 1366px) {
+    .responsive-surat{
+        /* transform: scale(.85) translate(0%, 0%) ; */
+    }
+
+  }
+
+
+/* LANDSCAPE IPAD MINI & PORTRAIT IPAD PRO*/
+  @media  (max-width: 1025px)  {
+    .responsive-surat{
+        /* transform: scale(0.65) translate(-19%, -27%) ; */
+    }
+  }
+
+
+  /* PORTRAIT IPAD AIR*/
+  @media  (max-width: 821px)  {
+    .responsive-surat{
+        /* transform: scale(.76) translate(-5%, -10%) ; */
+    }
+  }
+
+  
+  /* PORTRAIT IPAD MINI*/
+  @media  (max-width: 768px)  {
+ 
+    .responsive-surat{
+      /* margin-bottom: 100px; */
+        /* transform: scale(.65) translate(0%, 0%) ; */
+        /* width: '100px' !important; */
+        /* padding: 20px !important; */
+    }
+    /* .btn-primary-print{
+      margin-top: -50px !important;
+    } */
+    .custom-mail{
+      height: 900px;
+      overflow: hidden;
+    }
+  }
+
+  @media  (min-width: 1368px)  {
+ 
+    .responsive-surat{
+      /* margin-bottom: 100px; */
+        /* transform: scale(.65) translate(0%, 0%) ; */
+        /* width: '100px' !important; */
+        /* padding: 20px !important; */
+        min-width: 815px;
+    }
+    /* .btn-primary-print{
+      margin-top: -50px !important;
+    } */
+  }
+
+
+
