@@ -14,6 +14,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import SearchIcon from '@mui/icons-material/Search';
 import {
   Avatar,
   Box,
@@ -35,6 +36,7 @@ import {
 import { Logout } from '@mui/icons-material';
 import ChangePasswordForm from '@/pageComponents/Profile/FormChangePassword';
 import { StoreContext } from '@/context/context';
+import { Search, SearchIconWrapper, StyledInputBase } from '../Search';
 interface PropsContent {
   window?: () => Window;
   children: React.ReactElement;
@@ -157,7 +159,6 @@ const ContentComponent = (props: PropsContent) => {
   useEffect(() => {
     const getProfile = async () => {
       const response = await http.get('/api/session/profile');
-      console.log(response.data.menu);
       if (response.status === 200) {
         setUserSession(response.data);
       }
@@ -279,19 +280,19 @@ const ContentComponent = (props: PropsContent) => {
       <AppBar className="navbar-top">
         <Toolbar>
           <Stack direction="row" alignItems="center" spacing={1}>
-            <NavbarIconContainer
+            {/* <NavbarIconContainer
               className="icon-menu"
               color="inherit"
               aria-label="open drawer"
               edge="start"
               onClick={handleClickDrawerToggleNav}
               style={{ color: 'black' }}
-            >
-              {/* <Box>
+            > */}
+            {/* <Box>
                   <Image src={'/images/logo.png'} alt="Logo Image" height={45} width={80} />
                 </Box> */}
-              <MenuIcon />
-            </NavbarIconContainer>
+            {/* <MenuIcon />
+            </NavbarIconContainer> */}
             <img
               className="icon-image"
               src={'/images/logo.png'}
@@ -300,9 +301,10 @@ const ContentComponent = (props: PropsContent) => {
             />
 
             <h6 className="font-header">
-              <strong>WEB SERVICES</strong> Tirta Benteng
+              <strong>Dashboard</strong> Integration System
             </h6>
           </Stack>
+
           <Stack
             className="mobile-logout"
             direction="row"
@@ -310,6 +312,16 @@ const ContentComponent = (props: PropsContent) => {
             alignItems="center"
             divider={<Divider orientation="vertical" flexItem />}
           >
+            <Search>
+              <SearchIconWrapper>
+                <SearchIcon />
+              </SearchIconWrapper>
+              <StyledInputBase
+                placeholder="Cari Aplikasi"
+                inputProps={{ 'aria-label': 'search' }}
+                onChange={v => actions.UPDATE_LINK_DISPLAY({ ...state.links, key: v.target.value })}
+              />
+            </Search>
             <Tooltip title="Account settings">
               <IconButton
                 onClick={handleClickMenus}

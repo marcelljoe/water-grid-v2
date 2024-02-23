@@ -58,6 +58,11 @@ export const INITIAL_STATE: InitialState = {
     onOk: () => {},
     onCancel: () => {},
     onClose: () => {}
+  },
+  links: {
+    data: [],
+    key: '',
+    preset: 1
   }
 };
 

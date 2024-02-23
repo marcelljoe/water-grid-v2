@@ -874,17 +874,27 @@ font-size: 8px !important;
 
 .grids {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 32px;
   margin-top: 32px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
+  .grids {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1170px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1580px) {
+  .grids {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1700px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }

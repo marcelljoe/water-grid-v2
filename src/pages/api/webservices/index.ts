@@ -17,3 +17,16 @@ export const getWebServices = async (req: NextApiRequest, res: NextApiResponse) 
     return error;
   }
 };
+
+export const getDivisions = async (req: NextApiRequest, res: NextApiResponse) => {
+  try {
+    // const session = await getLoginSession(req);
+    // let dept = await sessionService.getSessionProfile(session?.session as string);
+    // dept.deptId = 1;
+    // const deptId = Number(dept.deptId as any);
+    const response = await model.getDvsns();
+    return response;
+  } catch (error) {
+    return error;
+  }
+};

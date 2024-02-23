@@ -1,5 +1,5 @@
 import { AlertColor } from '@mui/material';
-import { IFilter, IPagination } from '@/lib/interfaces/common';
+import { IFilter, ILinks, IPagination } from '@/lib/interfaces/common';
 
 export interface Action {
   type: string;
@@ -30,6 +30,7 @@ export interface InitialState {
   notification: Notification;
   filter: IFilter;
   dialog: IDialog;
+  links: ILinks;
 }
 
 export interface Modal {

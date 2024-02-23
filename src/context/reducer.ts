@@ -90,6 +90,16 @@ const actionTypes = (state: InitialState, { type, payload }: Action) => {
           onClose: payload.onClose
         }
       };
+    case actions.UPDATE_LINK_DISPLAY:
+      return {
+        ...state,
+        links: {
+          ...state.links,
+          data: payload.data,
+          key: payload.key,
+          preset: payload.preset
+        }
+      };
 
     default:
       return state;

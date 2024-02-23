@@ -13,13 +13,13 @@ const HomePage: NextPage = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>E-Office Web Apps</title>
-        <meta name="description" content="E-Office Web Apps" />
+        <title>WebServices Web Apps</title>
+        <meta name="description" content="WebServices Web Apps" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageContainer>
-        <h1>Welcome to E-Office Web Apps</h1>
+        <h1>Welcome to WebServices Web Apps</h1>
       </PageContainer>
     </React.Fragment>
   );

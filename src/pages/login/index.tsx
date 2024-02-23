@@ -137,7 +137,7 @@ const LoginPage: React.FC<LoginPageProps> = props => {
   return (
     <React.Fragment>
       <Head>
-        <title>Login | E-Office Web Apps</title>
+        <title>Login | WebServices Web Apps</title>
       </Head>
       <PageContainer>
         <AuthPageBackground>
@@ -266,10 +266,10 @@ const LoginPage: React.FC<LoginPageProps> = props => {
                 <Image src={'/images/logo.png'} alt="Logo Image" height={50} width={50} priority />
                 <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '1rem' }}>
                   <Typography sx={{ fontWeight: '600', fontSize: '0.75rem', color: '#536580' }}>
-                    E-Office Web App
+                    Dashboard
                     <Typography component="span" sx={{ fontSize: '0.75rem' }}>
                       {' '}
-                      Tirta Benteng
+                      Integration System
                     </Typography>
                   </Typography>
                 </Grid>

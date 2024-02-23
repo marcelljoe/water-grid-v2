@@ -75,3 +75,9 @@ export interface IInsert extends formModal {
   sub: string;
   userId: number;
 }
+
+export interface ILinks {
+  data: [];
+  key: string;
+  preset: number;
+}
